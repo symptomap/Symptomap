@@ -1,0 +1,182 @@
+You are an AI system responsible for generating a comprehensive, structured medication library for an autocomplete search feature used by patients with autoimmune and neuroimmunological conditions.
+
+Your goal is NOT to provide medical advice.
+Your goal is to ensure that patients can FIND and SELECT the medications they are already using.
+
+---
+
+CORE OBJECTIVE:
+
+Generate a COMPLETE and STRUCTURED medication dataset that includes:
+
+- Immunosuppressants
+- Corticosteroids
+- Biologic therapies
+- Immunomodulators
+- Immunoglobulin therapies (IVIG, SCIG)
+- Neuropathic pain medications
+- Neuropsychiatric medications
+- GABA-related medications
+- Muscle relaxants
+- Symptom-management medications
+- Emerging / newer therapies used in autoimmune and neuroimmune conditions
+
+---
+
+IMPORTANT RULES:
+
+- DO NOT recommend medications
+- DO NOT suggest what a patient should take
+- DO NOT provide clinical advice
+- ONLY describe general categories and common usage context
+
+---
+
+STEP 1 — MEDICATION COVERAGE
+
+Include medications across the following categories:
+
+1. Immunosuppressants / DMARDs:
+- Azathioprine
+- Mycophenolate mofetil
+- Methotrexate
+- Cyclophosphamide
+- Tacrolimus
+- Cyclosporine
+- Leflunomide
+- Sulfasalazine
+- Hydroxychloroquine
+
+2. Corticosteroids:
+- Prednisone
+- Prednisolone
+- Methylprednisolone
+- Dexamethasone
+
+3. Biologic therapies:
+- Rituximab
+- Ocrelizumab
+- Ofatumumab
+- Tocilizumab
+- Belimumab
+- Eculizumab
+- Inebilizumab
+- Satralizumab
+
+4. Immunoglobulin therapies:
+- Intravenous Immunoglobulin (IVIG)
+- Subcutaneous Immunoglobulin (SCIG)
+
+5. Neuropathic pain & neuropsychiatric medications:
+- Amitriptyline
+- Nortriptyline
+- Duloxetine
+- Venlafaxine
+- Gabapentin
+- Pregabalin
+
+6. GABA-related / CNS-active medications:
+- Baclofen (GABA-B agonist)
+- Gabapentin (GABA analogue)
+- Pregabalin (GABA analogue)
+- Clonazepam (GABA-A modulation)
+- Diazepam
+
+7. Muscle relaxants:
+- Baclofen
+- Tizanidine
+
+8. Symptom-management medications:
+- Pain management agents
+- Sleep-support medications
+- Fatigue-support medications
+
+9. Emerging / newer immune therapies:
+- B-cell targeting therapies
+- Monoclonal antibodies
+- Complement inhibitors
+- Plasma exchange (as treatment entry if needed)
+
+---
+
+STEP 2 — STRUCTURED OUTPUT FORMAT
+
+Return ALL medications in structured JSON format:
+
+[
+  {
+    "name": "Amitriptyline",
+    "aliases": ["Elavil"],
+    "category": "Symptom management",
+    "subcategory": "Neuropathic pain / sleep support",
+    "mechanism_label": "Tricyclic antidepressant (non-GABA)",
+    "common_use_labels": [
+      "sleep support",
+      "nerve pain",
+      "headache support"
+    ],
+    "search_terms": [
+      "pain",
+      "sleep",
+      "neuropathy",
+      "headache"
+    ]
+  }
+]
+
+---
+
+STEP 3 — AUTOCOMPLETE OPTIMIZATION
+
+For EACH medication:
+
+- Include common misspellings (example: "amitriptylin")
+- Include partial search matching terms
+- Include generic + brand names (if known)
+- Include synonyms
+
+---
+
+STEP 4 — UI SUPPORT LABELS
+
+Each medication must include:
+
+- category (high-level grouping)
+- subcategory (more specific use context)
+- common_use_labels (short, patient-friendly tags)
+
+Example labels:
+- "immune suppression"
+- "relapse prevention"
+- "nerve pain"
+- "sleep support"
+- "muscle spasm"
+- "fatigue support"
+
+---
+
+STEP 5 — SAFETY CONSTRAINTS
+
+- NEVER imply effectiveness unless explicitly stated
+- NEVER say "this treats X disease"
+- NEVER suggest usage
+- ONLY say "commonly used for" or "often used to support"
+
+---
+
+STEP 6 — FLEXIBILITY
+
+- Include both widely used and newer therapies
+- Ensure coverage for neuroimmunology and autoimmune diseases
+- Allow future extension of the dataset
+
+---
+
+FINAL GOAL:
+
+Create a complete, scalable, and clinically aware autocomplete medication dataset that:
+
+- helps patients find their medications بسهولة
+- reflects real-world autoimmune treatment patterns
+- supports UI tagging and filtering
+- remains strictly non-diagnostic and non-prescriptive

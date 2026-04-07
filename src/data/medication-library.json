@@ -1,0 +1,875 @@
+[
+  {
+    "name": "Mitoxantrone",
+    "aliases": ["Novantrone"],
+    "category": "Immunosuppressant",
+    "subcategory": "Chemotherapy agent",
+    "mechanism_label": "DNA synthesis inhibitor",
+    "common_use_labels": ["immune suppression", "severe disease management"],
+    "search_terms": ["infusion", "chemotherapy", "MS", "severe", "worsening"]
+  },
+  {
+    "name": "Bortezomib",
+    "aliases": ["Velcade"],
+    "category": "Immunosuppressant",
+    "subcategory": "Proteasome inhibitor",
+    "mechanism_label": "Proteasome inhibitor",
+    "common_use_labels": ["immune suppression", "refractory disease"],
+    "search_terms": ["injection", "chemotherapy", "severe", "refractory"]
+  },
+  {
+    "name": "Anakinra",
+    "aliases": ["Kineret"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-1 receptor antagonist",
+    "mechanism_label": "Interleukin-1 blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-1", "inflammation"]
+  },
+  {
+    "name": "Ustekinumab",
+    "aliases": ["Stelara"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-12/IL-23 inhibitor",
+    "mechanism_label": "Interleukin-12/23 blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-12", "IL-23"]
+  },
+  {
+    "name": "Secukinumab",
+    "aliases": ["Cosentyx"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-17 inhibitor",
+    "mechanism_label": "Interleukin-17A blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-17"]
+  },
+  {
+    "name": "Ixekizumab",
+    "aliases": ["Taltz"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-17 inhibitor",
+    "mechanism_label": "Interleukin-17A blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-17"]
+  },
+  {
+    "name": "Abatacept",
+    "aliases": ["Orencia"],
+    "category": "Biologic therapy",
+    "subcategory": "T-cell co-stimulation inhibitor",
+    "mechanism_label": "CTLA-4 fusion protein",
+    "common_use_labels": ["immune suppression", "T-cell modulation"],
+    "search_terms": ["biologic", "infusion", "injection", "T-cell"]
+  },
+  {
+    "name": "Certolizumab Pegol",
+    "aliases": ["Cimzia"],
+    "category": "Biologic therapy",
+    "subcategory": "TNF inhibitor",
+    "mechanism_label": "TNF-alpha blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "TNF"]
+  },
+  {
+    "name": "Golimumab",
+    "aliases": ["Simponi"],
+    "category": "Biologic therapy",
+    "subcategory": "TNF inhibitor",
+    "mechanism_label": "TNF-alpha blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "TNF"]
+  },
+  {
+    "name": "Guselkumab",
+    "aliases": ["Tremfya"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-23 inhibitor",
+    "mechanism_label": "Interleukin-23 blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-23"]
+  },
+  {
+    "name": "Risankizumab",
+    "aliases": ["Skyrizi"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-23 inhibitor",
+    "mechanism_label": "Interleukin-23 blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-23"]
+  },
+  {
+    "name": "Tildrakizumab",
+    "aliases": ["Ilumya"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-23 inhibitor",
+    "mechanism_label": "Interleukin-23 blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-23"]
+  },
+  {
+    "name": "Dupilumab",
+    "aliases": ["Dupixent"],
+    "category": "Biologic therapy",
+    "subcategory": "IL-4/IL-13 inhibitor",
+    "mechanism_label": "Interleukin-4 receptor alpha blocker",
+    "common_use_labels": ["immune modulation", "inflammation control"],
+    "search_terms": ["biologic", "injection", "subcutaneous", "IL-4", "IL-13"]
+  },
+  {
+    "name": "Anifrolumab",
+    "aliases": ["Saphnelo"],
+    "category": "Biologic therapy",
+    "subcategory": "Type I interferon receptor antagonist",
+    "mechanism_label": "Interferon receptor blocker",
+    "common_use_labels": ["immune suppression", "lupus support"],
+    "search_terms": ["biologic", "infusion", "lupus", "SLE", "interferon"]
+  },
+  {
+    "name": "Emapalumab",
+    "aliases": ["Gamifant"],
+    "category": "Biologic therapy",
+    "subcategory": "IFN-gamma blocker",
+    "mechanism_label": "Interferon-gamma blocker",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["biologic", "infusion", "interferon"]
+  },
+  {
+    "name": "Ublituximab",
+    "aliases": ["Briumvi"],
+    "category": "Biologic therapy",
+    "subcategory": "B-cell targeting therapy",
+    "mechanism_label": "CD20 monoclonal antibody",
+    "common_use_labels": ["immune suppression", "relapse prevention", "B-cell depletion"],
+    "search_terms": ["biologic", "infusion", "MS", "CD20"]
+  },
+  {
+    "name": "Vedolizumab",
+    "aliases": ["Entyvio"],
+    "category": "Biologic therapy",
+    "subcategory": "Integrin inhibitor",
+    "mechanism_label": "Alpha-4-beta-7 integrin blocker",
+    "common_use_labels": ["immune suppression", "gut-selective"],
+    "search_terms": ["biologic", "infusion", "IBD", "integrin"]
+  },
+  {
+    "name": "Baricitinib",
+    "aliases": ["Olumiant"],
+    "category": "Immunosuppressant",
+    "subcategory": "JAK inhibitor",
+    "mechanism_label": "JAK1/JAK2 inhibitor",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["pill", "oral", "JAK", "inhibitor"]
+  },
+  {
+    "name": "Tofacitinib",
+    "aliases": ["Xeljanz"],
+    "category": "Immunosuppressant",
+    "subcategory": "JAK inhibitor",
+    "mechanism_label": "JAK1/JAK3 inhibitor",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["pill", "oral", "JAK", "inhibitor"]
+  },
+  {
+    "name": "Upadacitinib",
+    "aliases": ["Rinvoq"],
+    "category": "Immunosuppressant",
+    "subcategory": "JAK inhibitor",
+    "mechanism_label": "JAK1 inhibitor",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["pill", "oral", "JAK", "inhibitor"]
+  },
+  {
+    "name": "Filgotinib",
+    "aliases": ["Jyseleca"],
+    "category": "Immunosuppressant",
+    "subcategory": "JAK inhibitor",
+    "mechanism_label": "JAK1 inhibitor",
+    "common_use_labels": ["immune suppression", "inflammation control"],
+    "search_terms": ["pill", "oral", "JAK", "inhibitor"]
+  },
+  {
+    "name": "Apremilast",
+    "aliases": ["Otezla"],
+    "category": "Immunomodulator",
+    "subcategory": "PDE4 inhibitor",
+    "mechanism_label": "Phosphodiesterase-4 inhibitor",
+    "common_use_labels": ["immune modulation", "inflammation control"],
+    "search_terms": ["pill", "oral", "PDE4"]
+  },
+  {
+    "name": "Deucravacitinib",
+    "aliases": ["Sotyktu"],
+    "category": "Immunomodulator",
+    "subcategory": "TYK2 inhibitor",
+    "mechanism_label": "Tyrosine kinase 2 inhibitor",
+    "common_use_labels": ["immune modulation", "inflammation control"],
+    "search_terms": ["pill", "oral", "TYK2"]
+  },
+  {
+    "name": "Voclosporin",
+    "aliases": ["Lupkynis"],
+    "category": "Immunosuppressant",
+    "subcategory": "Calcineurin inhibitor",
+    "mechanism_label": "T-cell inhibitor",
+    "common_use_labels": ["immune suppression", "lupus nephritis"],
+    "search_terms": ["pill", "oral", "lupus", "kidney"]
+  },
+  {
+    "name": "Sirolimus",
+    "aliases": ["Rapamune"],
+    "category": "Immunosuppressant",
+    "subcategory": "mTOR inhibitor",
+    "mechanism_label": "Mammalian target of rapamycin inhibitor",
+    "common_use_labels": ["immune suppression", "maintenance therapy"],
+    "search_terms": ["pill", "oral", "mTOR"]
+  },
+  {
+    "name": "Everolimus",
+    "aliases": ["Zortress", "Afinitor"],
+    "category": "Immunosuppressant",
+    "subcategory": "mTOR inhibitor",
+    "mechanism_label": "Mammalian target of rapamycin inhibitor",
+    "common_use_labels": ["immune suppression", "maintenance therapy"],
+    "search_terms": ["pill", "oral", "mTOR"]
+  },
+  {
+    "name": "Monomethyl Fumarate",
+    "aliases": ["Bafiertam"],
+    "category": "Immunomodulator",
+    "subcategory": "MS disease-modifying therapy",
+    "mechanism_label": "Nrf2 pathway activator",
+    "common_use_labels": ["relapse prevention", "neuroprotection"],
+    "search_terms": ["pill", "oral", "MS", "DMT", "fumarate"]
+  },
+  {
+    "name": "Diroximel Fumarate",
+    "aliases": ["Vumerity"],
+    "category": "Immunomodulator",
+    "subcategory": "MS disease-modifying therapy",
+    "mechanism_label": "Nrf2 pathway activator",
+    "common_use_labels": ["relapse prevention", "neuroprotection"],
+    "search_terms": ["pill", "oral", "MS", "DMT", "fumarate"]
+  },
+  {
+    "name": "Pimecrolimus",
+    "aliases": ["Elidel"],
+    "category": "Immunosuppressant",
+    "subcategory": "Calcineurin inhibitor",
+    "mechanism_label": "T-cell inhibitor",
+    "common_use_labels": ["immune suppression", "topical"],
+    "search_terms": ["cream", "topical", "skin"]
+  },
+  {
+    "name": "Colchicine",
+    "aliases": ["Colcrys"],
+    "category": "Immunomodulator",
+    "subcategory": "Anti-inflammatory",
+    "mechanism_label": "Microtubule inhibitor",
+    "common_use_labels": ["inflammation control", "gout support"],
+    "search_terms": ["pill", "oral", "inflammation", "gout"]
+  },
+  {
+    "name": "Dapsone",
+    "aliases": [],
+    "category": "Immunosuppressant",
+    "subcategory": "Sulfone antibiotic",
+    "mechanism_label": "Anti-inflammatory antibiotic",
+    "common_use_labels": ["immune modulation", "skin support"],
+    "search_terms": ["pill", "oral", "skin", "antibiotic"]
+  },
+  {
+    "name": "Chloroquine",
+    "aliases": ["Aralen"],
+    "category": "Immunosuppressant",
+    "subcategory": "Antimalarial DMARD",
+    "mechanism_label": "Immunomodulator",
+    "common_use_labels": ["immune modulation", "lupus support"],
+    "search_terms": ["pill", "oral", "lupus", "antimalarial"]
+  },
+  {
+    "name": "Penicillamine",
+    "aliases": ["Cuprimine", "Depen"],
+    "category": "Immunosuppressant",
+    "subcategory": "DMARD",
+    "mechanism_label": "Metal chelator with immunomodulatory effects",
+    "common_use_labels": ["immune modulation", "chelation"],
+    "search_terms": ["pill", "oral", "DMARD", "chelator"]
+  },
+  {
+    "name": "Gold Sodium Thiomalate",
+    "aliases": ["Myochrysine"],
+    "category": "Immunosuppressant",
+    "subcategory": "DMARD",
+    "mechanism_label": "Gold compound",
+    "common_use_labels": ["immune suppression", "historical DMARD"],
+    "search_terms": ["injection", "gold", "DMARD"]
+  },
+  {
+    "name": "Auranofin",
+    "aliases": ["Ridaura"],
+    "category": "Immunosuppressant",
+    "subcategory": "DMARD",
+    "mechanism_label": "Oral gold compound",
+    "common_use_labels": ["immune suppression", "historical DMARD"],
+    "search_terms": ["pill", "oral", "gold", "DMARD"]
+  },
+  {
+    "name": "Minocycline",
+    "aliases": ["Minocin"],
+    "category": "Immunomodulator",
+    "subcategory": "Tetracycline antibiotic",
+    "mechanism_label": "Antibiotic with anti-inflammatory properties",
+    "common_use_labels": ["immune modulation", "anti-inflammatory"],
+    "search_terms": ["pill", "oral", "antibiotic", "inflammation"]
+  },
+  {
+    "name": "Low-Dose Naltrexone",
+    "aliases": ["LDN"],
+    "category": "Immunomodulator",
+    "subcategory": "Off-label immune modulation",
+    "mechanism_label": "Opioid receptor modulator",
+    "common_use_labels": ["immune modulation", "pain support"],
+    "search_terms": ["pill", "oral", "LDN", "naltrexone", "off-label"]
+  },
+  {
+    "name": "Memantine",
+    "aliases": ["Namenda"],
+    "category": "Symptom management",
+    "subcategory": "Cognitive support",
+    "mechanism_label": "NMDA receptor antagonist",
+    "common_use_labels": ["cognitive support", "memory support"],
+    "search_terms": ["pill", "oral", "memory", "cognition"]
+  },
+  {
+    "name": "Donepezil",
+    "aliases": ["Aricept"],
+    "category": "Symptom management",
+    "subcategory": "Cognitive support",
+    "mechanism_label": "Acetylcholinesterase inhibitor",
+    "common_use_labels": ["cognitive support", "memory support"],
+    "search_terms": ["pill", "oral", "memory", "cognition"]
+  },
+  {
+    "name": "Rivastigmine",
+    "aliases": ["Exelon"],
+    "category": "Symptom management",
+    "subcategory": "Cognitive support",
+    "mechanism_label": "Acetylcholinesterase inhibitor",
+    "common_use_labels": ["cognitive support", "memory support"],
+    "search_terms": ["pill", "patch", "memory", "cognition"]
+  },
+  {
+    "name": "Armodafinil",
+    "aliases": ["Nuvigil"],
+    "category": "Symptom management",
+    "subcategory": "Fatigue support / wakefulness",
+    "mechanism_label": "Wakefulness-promoting agent",
+    "common_use_labels": ["fatigue support", "wakefulness"],
+    "search_terms": ["pill", "oral", "fatigue", "energy", "wakefulness"]
+  },
+  {
+    "name": "Methylphenidate",
+    "aliases": ["Ritalin", "Concerta"],
+    "category": "Symptom management",
+    "subcategory": "Fatigue support / focus",
+    "mechanism_label": "Stimulant",
+    "common_use_labels": ["fatigue support", "focus support"],
+    "search_terms": ["pill", "oral", "fatigue", "focus", "attention"]
+  },
+  {
+    "name": "Dextroamphetamine",
+    "aliases": ["Dexedrine", "Adderall"],
+    "category": "Symptom management",
+    "subcategory": "Fatigue support / focus",
+    "mechanism_label": "Stimulant",
+    "common_use_labels": ["fatigue support", "focus support"],
+    "search_terms": ["pill", "oral", "fatigue", "focus", "attention"]
+  },
+  {
+    "name": "Atomoxetine",
+    "aliases": ["Strattera"],
+    "category": "Symptom management",
+    "subcategory": "Focus / attention support",
+    "mechanism_label": "Norepinephrine reuptake inhibitor",
+    "common_use_labels": ["focus support", "attention support"],
+    "search_terms": ["pill", "oral", "focus", "attention", "ADHD"]
+  },
+  {
+    "name": "Bupropion",
+    "aliases": ["Wellbutrin", "Zyban"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / fatigue",
+    "mechanism_label": "Norepinephrine-dopamine reuptake inhibitor",
+    "common_use_labels": ["mood support", "fatigue support"],
+    "search_terms": ["pill", "oral", "depression", "fatigue", "mood"]
+  },
+  {
+    "name": "Escitalopram",
+    "aliases": ["Lexapro"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / anxiety",
+    "mechanism_label": "SSRI (selective serotonin reuptake inhibitor)",
+    "common_use_labels": ["mood support", "anxiety support"],
+    "search_terms": ["pill", "oral", "depression", "anxiety", "mood"]
+  },
+  {
+    "name": "Sertraline",
+    "aliases": ["Zoloft"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / anxiety",
+    "mechanism_label": "SSRI (selective serotonin reuptake inhibitor)",
+    "common_use_labels": ["mood support", "anxiety support"],
+    "search_terms": ["pill", "oral", "depression", "anxiety", "mood"]
+  },
+  {
+    "name": "Fluoxetine",
+    "aliases": ["Prozac"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / anxiety",
+    "mechanism_label": "SSRI (selective serotonin reuptake inhibitor)",
+    "common_use_labels": ["mood support", "anxiety support"],
+    "search_terms": ["pill", "oral", "depression", "anxiety", "mood"]
+  },
+  {
+    "name": "Paroxetine",
+    "aliases": ["Paxil"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / anxiety",
+    "mechanism_label": "SSRI (selective serotonin reuptake inhibitor)",
+    "common_use_labels": ["mood support", "anxiety support"],
+    "search_terms": ["pill", "oral", "depression", "anxiety", "mood"]
+  },
+  {
+    "name": "Citalopram",
+    "aliases": ["Celexa"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / anxiety",
+    "mechanism_label": "SSRI (selective serotonin reuptake inhibitor)",
+    "common_use_labels": ["mood support", "anxiety support"],
+    "search_terms": ["pill", "oral", "depression", "anxiety", "mood"]
+  },
+  {
+    "name": "Mirtazapine",
+    "aliases": ["Remeron"],
+    "category": "Symptom management",
+    "subcategory": "Mood support / sleep",
+    "mechanism_label": "Tetracyclic antidepressant",
+    "common_use_labels": ["mood support", "sleep support", "appetite support"],
+    "search_terms": ["pill", "oral", "depression", "sleep", "appetite"]
+  },
+  {
+    "name": "Trazodone",
+    "aliases": ["Desyrel"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support / mood",
+    "mechanism_label": "Serotonin antagonist and reuptake inhibitor",
+    "common_use_labels": ["sleep support", "mood support"],
+    "search_terms": ["pill", "oral", "sleep", "insomnia", "depression"]
+  },
+  {
+    "name": "Quetiapine",
+    "aliases": ["Seroquel"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support / mood",
+    "mechanism_label": "Atypical antipsychotic",
+    "common_use_labels": ["sleep support", "mood support"],
+    "search_terms": ["pill", "oral", "sleep", "mood", "antipsychotic"]
+  },
+  {
+    "name": "Zolpidem",
+    "aliases": ["Ambien"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support",
+    "mechanism_label": "Sedative-hypnotic",
+    "common_use_labels": ["sleep support", "insomnia"],
+    "search_terms": ["pill", "oral", "sleep", "insomnia"]
+  },
+  {
+    "name": "Eszopiclone",
+    "aliases": ["Lunesta"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support",
+    "mechanism_label": "Sedative-hypnotic",
+    "common_use_labels": ["sleep support", "insomnia"],
+    "search_terms": ["pill", "oral", "sleep", "insomnia"]
+  },
+  {
+    "name": "Zaleplon",
+    "aliases": ["Sonata"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support",
+    "mechanism_label": "Sedative-hypnotic",
+    "common_use_labels": ["sleep support", "insomnia"],
+    "search_terms": ["pill", "oral", "sleep", "insomnia"]
+  },
+  {
+    "name": "Melatonin",
+    "aliases": [],
+    "category": "Symptom management",
+    "subcategory": "Sleep support",
+    "mechanism_label": "Hormone supplement",
+    "common_use_labels": ["sleep support", "circadian rhythm"],
+    "search_terms": ["pill", "oral", "sleep", "supplement", "natural"]
+  },
+  {
+    "name": "Lorazepam",
+    "aliases": ["Ativan"],
+    "category": "Symptom management",
+    "subcategory": "Anxiety / sleep",
+    "mechanism_label": "Benzodiazepine (GABA-A modulator)",
+    "common_use_labels": ["anxiety support", "sleep support"],
+    "search_terms": ["pill", "oral", "anxiety", "sleep", "benzodiazepine"]
+  },
+  {
+    "name": "Alprazolam",
+    "aliases": ["Xanax"],
+    "category": "Symptom management",
+    "subcategory": "Anxiety support",
+    "mechanism_label": "Benzodiazepine (GABA-A modulator)",
+    "common_use_labels": ["anxiety support", "panic support"],
+    "search_terms": ["pill", "oral", "anxiety", "panic", "benzodiazepine"]
+  },
+  {
+    "name": "Temazepam",
+    "aliases": ["Restoril"],
+    "category": "Symptom management",
+    "subcategory": "Sleep support",
+    "mechanism_label": "Benzodiazepine (GABA-A modulator)",
+    "common_use_labels": ["sleep support", "insomnia"],
+    "search_terms": ["pill", "oral", "sleep", "insomnia", "benzodiazepine"]
+  },
+  {
+    "name": "Buspirone",
+    "aliases": ["BuSpar"],
+    "category": "Symptom management",
+    "subcategory": "Anxiety support",
+    "mechanism_label": "Serotonin receptor agonist",
+    "common_use_labels": ["anxiety support"],
+    "search_terms": ["pill", "oral", "anxiety"]
+  },
+  {
+    "name": "Hydroxyzine",
+    "aliases": ["Atarax", "Vistaril"],
+    "category": "Symptom management",
+    "subcategory": "Anxiety / sleep / antihistamine",
+    "mechanism_label": "Antihistamine with anxiolytic properties",
+    "common_use_labels": ["anxiety support", "sleep support", "itch relief"],
+    "search_terms": ["pill", "oral", "anxiety", "sleep", "antihistamine", "itch"]
+  },
+  {
+    "name": "Propranolol",
+    "aliases": ["Inderal"],
+    "category": "Symptom management",
+    "subcategory": "Anxiety / tremor / migraine",
+    "mechanism_label": "Beta-blocker",
+    "common_use_labels": ["anxiety support", "tremor support", "migraine prevention"],
+    "search_terms": ["pill", "oral", "anxiety", "tremor", "migraine", "beta blocker"]
+  },
+  {
+    "name": "Cyclobenzaprine",
+    "aliases": ["Flexeril"],
+    "category": "Symptom management",
+    "subcategory": "Muscle relaxant",
+    "mechanism_label": "Centrally-acting muscle relaxant",
+    "common_use_labels": ["muscle spasm", "muscle pain"],
+    "search_terms": ["pill", "oral", "muscle", "spasm", "pain"]
+  },
+  {
+    "name": "Methocarbamol",
+    "aliases": ["Robaxin"],
+    "category": "Symptom management",
+    "subcategory": "Muscle relaxant",
+    "mechanism_label": "Centrally-acting muscle relaxant",
+    "common_use_labels": ["muscle spasm", "muscle pain"],
+    "search_terms": ["pill", "oral", "muscle", "spasm", "pain"]
+  },
+  {
+    "name": "Carisoprodol",
+    "aliases": ["Soma"],
+    "category": "Symptom management",
+    "subcategory": "Muscle relaxant",
+    "mechanism_label": "Centrally-acting muscle relaxant",
+    "common_use_labels": ["muscle spasm", "muscle pain"],
+    "search_terms": ["pill", "oral", "muscle", "spasm", "pain"]
+  },
+  {
+    "name": "Orphenadrine",
+    "aliases": ["Norflex"],
+    "category": "Symptom management",
+    "subcategory": "Muscle relaxant",
+    "mechanism_label": "Centrally-acting muscle relaxant",
+    "common_use_labels": ["muscle spasm", "muscle pain"],
+    "search_terms": ["pill", "oral", "muscle", "spasm", "pain"]
+  },
+  {
+    "name": "Dantrolene",
+    "aliases": ["Dantrium"],
+    "category": "Symptom management",
+    "subcategory": "Muscle relaxant / spasticity",
+    "mechanism_label": "Direct-acting muscle relaxant",
+    "common_use_labels": ["muscle spasm", "spasticity support"],
+    "search_terms": ["pill", "oral", "muscle", "spasm", "spasticity"]
+  },
+  {
+    "name": "Botulinum Toxin Type A",
+    "aliases": ["Botox", "Dysport", "Xeomin"],
+    "category": "Symptom management",
+    "subcategory": "Muscle spasticity / dystonia",
+    "mechanism_label": "Neuromuscular blocker",
+    "common_use_labels": ["spasticity support", "dystonia", "muscle spasm"],
+    "search_terms": ["injection", "botox", "spasticity", "dystonia", "spasm"]
+  },
+  {
+    "name": "Botulinum Toxin Type B",
+    "aliases": ["Myobloc"],
+    "category": "Symptom management",
+    "subcategory": "Muscle spasticity / dystonia",
+    "mechanism_label": "Neuromuscular blocker",
+    "common_use_labels": ["spasticity support", "dystonia", "muscle spasm"],
+    "search_terms": ["injection", "botox", "spasticity", "dystonia", "spasm"]
+  },
+  {
+    "name": "Topiramate",
+    "aliases": ["Topamax"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / seizure / pain",
+    "mechanism_label": "Anticonvulsant",
+    "common_use_labels": ["migraine prevention", "seizure support", "nerve pain"],
+    "search_terms": ["pill", "oral", "migraine", "headache", "seizure", "pain"]
+  },
+  {
+    "name": "Lamotrigine",
+    "aliases": ["Lamictal"],
+    "category": "Symptom management",
+    "subcategory": "Seizure / mood / pain",
+    "mechanism_label": "Anticonvulsant",
+    "common_use_labels": ["seizure support", "mood support", "nerve pain"],
+    "search_terms": ["pill", "oral", "seizure", "mood", "pain"]
+  },
+  {
+    "name": "Levetiracetam",
+    "aliases": ["Keppra"],
+    "category": "Symptom management",
+    "subcategory": "Seizure support",
+    "mechanism_label": "Anticonvulsant",
+    "common_use_labels": ["seizure support"],
+    "search_terms": ["pill", "oral", "seizure", "epilepsy"]
+  },
+  {
+    "name": "Valproic Acid",
+    "aliases": ["Depakote", "Depakene"],
+    "category": "Symptom management",
+    "subcategory": "Seizure / migraine / mood",
+    "mechanism_label": "Anticonvulsant",
+    "common_use_labels": ["seizure support", "migraine prevention", "mood support"],
+    "search_terms": ["pill", "oral", "seizure", "migraine", "mood"]
+  },
+  {
+    "name": "Phenytoin",
+    "aliases": ["Dilantin"],
+    "category": "Symptom management",
+    "subcategory": "Seizure / nerve pain",
+    "mechanism_label": "Anticonvulsant",
+    "common_use_labels": ["seizure support", "nerve pain"],
+    "search_terms": ["pill", "oral", "seizure", "pain"]
+  },
+  {
+    "name": "Sumatriptan",
+    "aliases": ["Imitrex"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "injection", "nasal spray", "migraine", "headache"]
+  },
+  {
+    "name": "Rizatriptan",
+    "aliases": ["Maxalt"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "migraine", "headache"]
+  },
+  {
+    "name": "Zolmitriptan",
+    "aliases": ["Zomig"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "nasal spray", "migraine", "headache"]
+  },
+  {
+    "name": "Eletriptan",
+    "aliases": ["Relpax"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "migraine", "headache"]
+  },
+  {
+    "name": "Almotriptan",
+    "aliases": ["Axert"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "migraine", "headache"]
+  },
+  {
+    "name": "Frovatriptan",
+    "aliases": ["Frova"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "migraine", "headache"]
+  },
+  {
+    "name": "Naratriptan",
+    "aliases": ["Amerge"],
+    "category": "Symptom management",
+    "subcategory": "Migraine / headache",
+    "mechanism_label": "Triptan (serotonin receptor agonist)",
+    "common_use_labels": ["migraine relief", "headache relief"],
+    "search_terms": ["pill", "migraine", "headache"]
+  },
+  {
+    "name": "Erenumab",
+    "aliases": ["Aimovig"],
+    "category": "Symptom management",
+    "subcategory": "Migraine prevention",
+    "mechanism_label": "CGRP receptor antagonist",
+    "common_use_labels": ["migraine prevention"],
+    "search_terms": ["injection", "subcutaneous", "migraine", "CGRP"]
+  },
+  {
+    "name": "Fremanezumab",
+    "aliases": ["Ajovy"],
+    "category": "Symptom management",
+    "subcategory": "Migraine prevention",
+    "mechanism_label": "CGRP antagonist",
+    "common_use_labels": ["migraine prevention"],
+    "search_terms": ["injection", "subcutaneous", "migraine", "CGRP"]
+  },
+  {
+    "name": "Galcanezumab",
+    "aliases": ["Emgality"],
+    "category": "Symptom management",
+    "subcategory": "Migraine prevention",
+    "mechanism_label": "CGRP antagonist",
+    "common_use_labels": ["migraine prevention"],
+    "search_terms": ["injection", "subcutaneous", "migraine", "CGRP"]
+  },
+  {
+    "name": "Eptinezumab",
+    "aliases": ["Vyepti"],
+    "category": "Symptom management",
+    "subcategory": "Migraine prevention",
+    "mechanism_label": "CGRP antagonist",
+    "common_use_labels": ["migraine prevention"],
+    "search_terms": ["infusion", "migraine", "CGRP"]
+  },
+  {
+    "name": "Rimegepant",
+    "aliases": ["Nurtec"],
+    "category": "Symptom management",
+    "subcategory": "Migraine treatment / prevention",
+    "mechanism_label": "CGRP receptor antagonist",
+    "common_use_labels": ["migraine relief", "migraine prevention"],
+    "search_terms": ["pill", "oral", "migraine", "CGRP"]
+  },
+  {
+    "name": "Ubrogepant",
+    "aliases": ["Ubrelvy"],
+    "category": "Symptom management",
+    "subcategory": "Migraine treatment",
+    "mechanism_label": "CGRP receptor antagonist",
+    "common_use_labels": ["migraine relief"],
+    "search_terms": ["pill", "oral", "migraine", "CGRP"]
+  },
+  {
+    "name": "Atogepant",
+    "aliases": ["Qulipta"],
+    "category": "Symptom management",
+    "subcategory": "Migraine prevention",
+    "mechanism_label": "CGRP receptor antagonist",
+    "common_use_labels": ["migraine prevention"],
+    "search_terms": ["pill", "oral", "migraine", "CGRP"]
+  },
+  {
+    "name": "Solifenacin",
+    "aliases": ["Vesicare"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Anticholinergic",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Darifenacin",
+    "aliases": ["Enablex"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Anticholinergic",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Fesoterodine",
+    "aliases": ["Toviaz"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Anticholinergic",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Trospium",
+    "aliases": ["Sanctura"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Anticholinergic",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Mirabegron",
+    "aliases": ["Myrbetriq"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Beta-3 adrenergic agonist",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Vibegron",
+    "aliases": ["Gemtesa"],
+    "category": "Symptom management",
+    "subcategory": "Bladder control",
+    "mechanism_label": "Beta-3 adrenergic agonist",
+    "common_use_labels": ["bladder support", "urinary urgency"],
+    "search_terms": ["pill", "oral", "bladder", "urinary", "urgency"]
+  },
+  {
+    "name": "Cannabidiol",
+    "aliases": ["CBD", "Epidiolex"],
+    "category": "Symptom management",
+    "subcategory": "Seizure / pain / anxiety",
+    "mechanism_label": "Cannabinoid",
+    "common_use_labels": ["seizure support", "pain relief", "anxiety support"],
+    "search_terms": ["oil", "pill", "CBD", "cannabis", "seizure", "pain", "anxiety"]
+  },
+  {
+    "name": "Medical Cannabis",
+    "aliases": ["THC", "Marijuana"],
+    "category": "Symptom management",
+    "subcategory": "Pain / nausea / spasticity",
+    "mechanism_label": "Cannabinoid",
+    "common_use_labels": ["pain relief", "spasticity support", "nausea relief"],
+    "search_terms": ["cannabis", "THC", "marijuana", "pain", "spasticity", "nausea"]
+  }
+]
